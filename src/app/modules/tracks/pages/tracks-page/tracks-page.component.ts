@@ -7,6 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TracksPageComponent implements OnInit {
 
+  mockTrackList = [
+    {
+      name: 'Traicionera',
+      autor: 'Pastor López'
+    },    {
+      name: 'Lucerito',
+      autor: 'Gustavo Quintero'
+    },    {
+      name: 'Adonay',
+      autor: 'Rodolfo Aicardi'
+    },
+  ]
+
   constructor() { }
 
   ngOnInit(): void {
